@@ -334,6 +334,7 @@ bool full_lines(void) {
       clear_lowest_y = y;
     clear_shift_amount++;
   _out_loop:
+    continue;
   }
   clear_animation = clear_lowest_y;
   return clear_lowest_y != 0;
